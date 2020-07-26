@@ -4,7 +4,7 @@
 
 // Variables de personnalisation du dashboard
 let widget_number = 3 // le nombre de widget au chargement du dashboard
-let openweathermap_key = 'a18b494d35248976d965015f49e1569c'
+let openweathermap_key = 'your API key'
 let radio_url = [
     'https://start-latina.ice.infomaniak.ch/start-latina-high.mp3',
     'https://latinafiesta.ice.infomaniak.ch/latinafiesta.mp3',
