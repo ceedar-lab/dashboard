@@ -1,0 +1,12 @@
+:root {
+    --body-bg: #140000;
+    --header-bg: #020001;
+    --widget-bg: #c62626;
+    --widget-hover: #9e0101;
+    --widget-border-hover: #07101F;
+    --widget-border: #07101F;
+    --icons: #4d0000;    
+    --icons-hover: #db4444;
+    --police: white;
+    --underline: red;
+}

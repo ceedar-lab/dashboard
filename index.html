@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css/theme-default.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard CDEV Camp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.css">
+    <script src="https://kit.fontawesome.com/bb146a6d61.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./default.js" async></script>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="body__header">
+        <div>
+            <img id="dashboard_logo" src="images/logo-cdev_camp-green.png" alt="logo">
+            <h1>Dashboard</h1>
+        </div>
+        <div>
+            <input type="checkbox" id="dashboard_config" class="-hide">
+            <label for="dashboard_config">Configuration&nbsp;&nbsp;<i class="fas fa-chevron-circle-down"></i></label>
+            <ul class="-hide">
+                <ul>
+                    <li><label for="theme">Thème :</label></li>
+                    <li>
+                        <select id="theme">
+                        <option value="default">Default</option>
+                        <option value="blue">Midnight</option>
+                        <option value="red">Inferno</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul>
+                    <li><label for="widget_number">Nombre de widgets :</label></li>
+                    <li class="-column"><input type="text" id="widget_number" placeholder="Max. 20"></li>
+                </ul>
+                <ul>
+                    <li><label for="widget_per_row">Widgets par ligne :</label></li>
+                    <li><input type="range" id="widget_per_row" min="1" max="5" value="3"></li>
+                </ul>
+            </ul>
+        </div>
+    </header>
+    <main id="widget__container">
+        <section>
+        </section>
+    </main>
+</body>
+
+</html>
