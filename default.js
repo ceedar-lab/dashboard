@@ -394,8 +394,6 @@ function chronometer() {
             click(button_up, 'button_up')
             chrono_secondes_count[i] = 0
             chrono_minutes_count[i] = 0
-            seconde_deg[i] = 0
-            minute_deg[i] = 0
             secondeRotation(i)
             minuteRotation(i)
         })
